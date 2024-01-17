@@ -1,0 +1,19 @@
+/* static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 20px;  /* Increase font size */
+}
+
+.content img {
+    width: 300px;  /* Adjust as needed */
+    height: auto;
+}

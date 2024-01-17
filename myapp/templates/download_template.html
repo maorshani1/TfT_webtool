@@ -1,0 +1,19 @@
+<!-- myapp/templates/download_template.html -->
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Template</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="content">
+        <img src="{% static 'maxresdefault.jpg' %}" alt="Image Description">
+        <p>{{ message }}</p>
+        <a href="{% static 'excel_template.xlsx' %}" download>Download Excel Template</a>
+    </div>
+</body>
+</html>

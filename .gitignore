@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*~
+db.sqlite3
+.vscode/  # If you're using Visual Studio Code
+.idea/    # If you're using PyCharm
+*.env
